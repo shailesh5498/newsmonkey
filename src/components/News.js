@@ -3,6 +3,7 @@ import NewsItem from "./NewsItem";
 import Spinner from "./Spinner";
 import PropTypes from "prop-types";
 import InfiniteScroll from "react-infinite-scroll-component";
+import NewsData from "./NewsData";
 
 const News = (props) => {
   const { country, category } = props;
@@ -13,6 +14,8 @@ const News = (props) => {
   const [totalResults, setTotalResults] = useState(0);
 
   const apiKey = "5f7e0f80d0cd4136adb1f60f1c024912"
+  const newsobject = NewsData()
+  console.log(newsobject)
 
   const capitalizeFirstLetter = (string) =>
     string.charAt(0).toUpperCase() + string.slice(1);
@@ -22,10 +25,10 @@ const News = (props) => {
     try {
       setLoading(true);
 
-      const url = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=${apiKey}&page=1&pageSize=9`;
+      //const url = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=${apiKey}&page=1&pageSize=9`;
 
-      const response = await fetch(url);
-      const parsedData = await response.json();
+      //const response = await fetch(url);
+      const parsedData = newsobject;
 
       setArticles(parsedData.articles || []);
       setTotalResults(parsedData.totalResults || 0);
@@ -42,10 +45,10 @@ const News = (props) => {
       const nextPage = page + 1;
       setPage(nextPage);
 
-      const url = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=${apiKey}&page=${nextPage}&pageSize=9`;
+      //const url = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=${apiKey}&page=${nextPage}&pageSize=9`;
 
-      const response = await fetch(url);
-      const parsedData = await response.json();
+     // const response = await fetch(url);
+      const parsedData = newsobject;
 
       setArticles((prevArticles) =>
         prevArticles.concat(parsedData.articles || [])
@@ -58,6 +61,7 @@ const News = (props) => {
 
   // 🔹 On mount + category change
   useEffect(() => {
+    console.log()
     document.title = `${capitalizeFirstLetter(category)} - NewsMonkey`;
     setPage(1);
     fetchNews();

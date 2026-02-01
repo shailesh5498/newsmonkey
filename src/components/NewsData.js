@@ -1,0 +1,272 @@
+import React from 'react'
+
+export default function NewsData() {
+  return {
+    
+  "status": "ok",
+  "totalResults": 24,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "Elon Musk's SpaceX applies to launch 1m satellites into orbit - BBC",
+      "description": "The firm wants to create a network of \"orbital data centres\" to power artificial intelligence.",
+      "url": "https://www.bbc.com/news/articles/cyv5l24mrjmo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/647e/live/2eac0410-febb-11f0-9972-d3f265c101c6.jpg",
+      "publishedAt": "2026-01-31T16:19:17Z",
+      "content": "Like the Starlink satellites, which provide high-speed internet, they would operate in low-Earth orbit at altitudes from 500-2,000km (310-1,242 miles)."
+    },
+    {
+      "source": {
+        "id": "axios",
+        "name": "Axios"
+      },
+      "author": "Madison Mills",
+      "title": "Why Wall Street is unhappy with Trump's pick for Fed chair - Axios",
+      "description": "Investors are getting their least favorite thing: uncertainty.",
+      "url": "https://www.axios.com/2026/01/30/kevin-warsh-trump-fed-ai",
+      "urlToImage": "https://images.axios.com/Lj8Reqzm7rn_UNPDSD4X6deGp5g=/1366x768/smart/2021/01/05/202453-1609878293624.jpg",
+      "publishedAt": "2026-01-31T15:43:54Z",
+      "content": "What they're saying: \"I don't like the pick,\" Neil Dutta, chief economist at Renaissance Macro Research, wrote in a note to clients. \r\n\u003Cul\u003E\u003Cli\u003EDutta tells Axios: \"I don't think people should change t… [+2227 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MarketWatch"
+      },
+      "author": "Britney Nguyen",
+      "title": "These overlooked stocks are a backdoor way to play the AI chip boom - MarketWatch",
+      "description": "Materials suppliers Entegris and Qnity aren’t household names, but they benefit from both the AI frenzy and a broader chip-sector recovery",
+      "url": "https://www.marketwatch.com/story/these-overlooked-stocks-are-a-backdoor-way-to-play-the-ai-chip-boom-7157eab9",
+      "urlToImage": "https://images.mktw.net/im-74379711/social",
+      "publishedAt": "2026-01-31T13:30:00Z",
+      "content": "Britney Nguyen is a tech reporter covering Nvidia, chips and AI. You can find her on X at @britneycath."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Amelia Lucas",
+      "title": "Big Food gets leaner with divestitures and breakups as consumers turn away from packaged snacks - CNBC",
+      "description": "Big Food has been selling off underperforming brands or even splitting up, as the industry faces weaker demand.",
+      "url": "https://www.cnbc.com/2026/01/31/kraft-heinz-kellogg-breakups-show-big-food-is-getting-smaller.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108193663-1756904775269-gettyimages-2233391807-_75a3376_kutzazhb.jpeg?v=1756904855&w=1920&h=1080",
+      "publishedAt": "2026-01-31T13:00:01Z",
+      "content": "Kraft Heinz announced plans to split into two separately traded companies, reversing its 2015 megamerger, which was orchestrated by billionaire investor Warren Buffett. \r\nBig Food is slimming down. \r… [+11191 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MarketWatch"
+      },
+      "author": "Emily Bary",
+      "title": "Buy Microsoft’s stock while it’s down? First ask yourself this question. - MarketWatch",
+      "description": "Microsoft’s stock is potentially compelling for long-term investors who believe the business is fundamentally ‘better than average,’ portfolio manager says",
+      "url": "https://www.marketwatch.com/story/buy-microsofts-stock-while-its-down-first-ask-yourself-this-question-22425bba",
+      "urlToImage": "https://images.mktw.net/im-28113577/social",
+      "publishedAt": "2026-01-31T13:00:00Z",
+      "content": "Microsofts stock hasnt been this cheap in almost three years. But what, exactly, investors should do about that is increasingly a topic of Wall Street debate.\r\nSentiment toward Microsofts stock \r\nMSF… [+302 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Debby Wu",
+      "title": "Nvidia Investment in OpenAI Round ‘Nothing Like’ $100 Billion - Bloomberg",
+      "description": "Nvidia Corp. Chief Executive Officer Jensen Huang said the company will be participating in OpenAI’s latest funding round, describing it as potentially “the largest investment we’ve ever made.”",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-31/nvidia-to-join-openai-s-current-funding-round-huang-says",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iKGtfaOjgGN8/v1/1200x800.jpg",
+      "publishedAt": "2026-01-31T12:54:31Z",
+      "content": "Nvidia Corp. Chief Executive Officer Jensen Huang said the company will be participating in OpenAIs latest funding round, describing it as potentially the largest investment weve ever made.\r\nWe will … [+302 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Billy Bambrough",
+      "title": "JPMorgan Just Called The Silver Price Top—And Issued A Massive Gold And Bitcoin Prediction - Forbes",
+      "description": "JPMorgan has called the silver price top, alongside a huge gold and bitcoin price prediction...",
+      "url": "https://www.forbes.com/sites/digital-assets/2026/01/31/jpmorgan-just-called-the-silver-price-top-and-issued-a-massive-gold-and-bitcoin-prediction/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6828555126e7d2e0b3b066ef/0x0.jpg?format=jpg&crop=2834,1593,x23,y100,safe&height=900&width=1600&fit=bounds",
+      "publishedAt": "2026-01-31T12:30:56Z",
+      "content": "Bitcoin has struggled so far into 2026, with fears that the massive gold and silver boom could herald a financial crisis worse than 2008.\r\nSign up now for \r\nCryptoCodex\r\nA free crypto newsletter that… [+2888 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Martina Di Licosa",
+      "title": "TikTok Superstar Khaby Lame’s Big Deal—Which Saw Him Valued At $6.6 Billion—Raises Red Flags, Experts Say - Forbes",
+      "description": "The all-stock transaction revolved around a small Chinese firm with less than $6 million in revenues, which went public just six months ago and saw its stock skyrocket over 650%",
+      "url": "https://www.forbes.com/sites/martinadilicosa/2026/01/31/tiktok-superstar-khaby-lames-big-deal-which-saw-him-valued-at-66-billion-raises-red-flags-experts-say/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/697d26a399762bd13dc4e937/0x0.jpg?format=jpg&crop=3168,2377,x393,y0,safe&height=900&width=1600&fit=bounds",
+      "publishedAt": "2026-01-31T11:30:00Z",
+      "content": "TikTok superstar Khaby Lames nearly billion-dollar deal with Rich Sparkle Holdings sent the value of that company and its newest shareholder soaringhitting $16.3 billion on January 15, with Lames sta… [+6937 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "Jennifer Sor",
+      "title": "3 warning signs silver could be headed for a deeper plunge, according to a top commodities expert - Business Insider",
+      "description": "Silver prices crashed on Friday. One commodities expert says there are three signs to watch for to know if more pain is coming.",
+      "url": "https://www.businessinsider.com/silver-price-today-crash-outlook-speculative-bubble-metals-rally-2026-1",
+      "urlToImage": "https://i.insider.com/697bbe40d3c7faef0ecd3446?width=1200&format=jpeg",
+      "publishedAt": "2026-01-31T10:45:00Z",
+      "content": "Silver took a historic plunge on Friday, but there are signs traders should look out for that could suggest the pain isn't over.\r\nThat's according to Jeffrey Christian, a longtime commodities analyst… [+4741 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "Alex Bitter, Eugene Kim",
+      "title": "Empty stores and massage chairs next to produce: Amazon Fresh employees explain the chain's demise - Business Insider",
+      "description": "As Amazon Fresh closes stores, workers say the chain struggled to resonate with customers and differentiate itself from Whole Foods",
+      "url": "https://www.businessinsider.com/why-amazon-fresh-struggled-to-break-through-workers-2026-1",
+      "urlToImage": "https://i.insider.com/697b6d48a645d1188188395c?width=1200&format=jpeg",
+      "publishedAt": "2026-01-31T10:39:00Z",
+      "content": "At an Amazon Fresh store in New York, some customers would walk in and ask employees: Do you have products from Amazon's other grocery store here?\r\n\"I would run into people looking for a specific pro… [+8384 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PennLive"
+      },
+      "author": "EmilyAnn Jackman",
+      "title": "Popular burger chain was just named the worst in America, and the reviews are brutal - Yahoo",
+      "description": "It's not a good spot to be in for this chain.",
+      "url": "https://www.pennlive.com/food/2026/01/popular-burger-chain-was-just-named-the-worst-in-america-and-the-reviews-are-brutal.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/dvri0ZaBfUxI2VVj2_v2Kg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/pennlive_com_articles_353/e82264bfaaf754bb40e725780dd4f101",
+      "publishedAt": "2026-01-31T10:30:43Z",
+      "content": "Ever wonder which spot had the best hamburgers out?\r\nHow about the worst? Well, when it comes to the worst spot to stop for a burger in the country, one site has folks covered.\r\nGiven the number of b… [+2094 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Lisa Eadicicco",
+      "title": "Amazon’s layoffs are staggering. We’ve seen this before - CNN",
+      "description": "Big Tech continues to wrestle with mass layoffs, most recently with Amazon’s announcement of 16,000 job cuts. It’s a trend that started long before the AI race: organizational change brought by the arrival of new technology.",
+      "url": "https://www.cnn.com/2026/01/31/tech/amazon-layoffs-january-tech-changes",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2258083398.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2026-01-31T10:00:46Z",
+      "content": "Big Tech continues to wrestle with mass layoffs, most recently with Amazons announcement to slash 16,000 jobs. Its a trend that started long before the AI race: organizational change brought by the a… [+3923 chars]"
+    },
+    {
+      "source": {
+        "id": "fortune",
+        "name": "Fortune"
+      },
+      "author": "Eleanor Pringle",
+      "title": "‘I just don’t have a good feeling about this’: Top economist Claudia Sahm says the economy quietly shifted and everyone’s now looking at the wrong alarm - Fortune",
+      "description": "Claudia Sahm tells Fortune why she's concerned the usual response to economic unease may no longer be fir for purpose.",
+      "url": "https://fortune.com/2026/01/31/claudia-sahm-economist-labor-fed/",
+      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/01/GettyImages-2243488427.jpg?resize=1200,600",
+      "publishedAt": "2026-01-31T08:14:00Z",
+      "content": "Analysts favourite gauge of the U.S. economys health comes from data. And at the moment, the numbers look OK ish. Hiring is down, but unemployment hasnt spiked, inflation isnt ballooning (as feared) … [+6982 chars]"
+    },
+    {
+      "source": {
+        "id": "axios",
+        "name": "Axios"
+      },
+      "author": "Pete Gannon",
+      "title": "Gold and silver prices plunge following Trump's Fed pick announcement - Axios",
+      "description": "The selloff follows a wild year when the precious metals soared as if they were meme stocks or the hot new tech darling.",
+      "url": "https://www.axios.com/2026/01/30/kevin-warsh-silver-price-today-gold",
+      "urlToImage": "https://images.axios.com/0cFv8Mw2bqRscRhxQzNOHxuQMHs=/1366x768/smart/2021/10/26/222437-1635287077227.jpg",
+      "publishedAt": "2026-01-31T08:08:19Z",
+      "content": "State of play: Gold futures tumbled 9% Friday afternoon, to $4,901 per ounce. It saw the biggest daily decline since the early 1980s, per Bloomberg.\r\n\u003Cul\u003E\u003Cli\u003ESilver plunged 27%, to $83.35 an ounce, t… [+1436 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Lauren Kaori Gurley, Andrew Ackerman",
+      "title": "Trump taps career staffer to lead statistics agency whose chief he fired - The Washington Post",
+      "description": "The agency has been without a permanent leader since August when Trump fired its previous commissioner Erika McEntarfer over a weaker-than-expected jobs report.",
+      "url": "https://www.washingtonpost.com/business/2026/01/30/trump-nominates-matsumoto-bls/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RG7WNCCI7XA3PGLURBK6GG3DJM_size-normalized.jpg&w=1440",
+      "publishedAt": "2026-01-31T04:49:00Z",
+      "content": "President Donald Trump will nominate White House economist Brett Matsumoto to head the Bureau of Labor Statistics, he said Friday evening on social media, replacing the previous commissioner whom the… [+73 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CoinDesk"
+      },
+      "author": "Shaurya Malwa",
+      "title": "Here's how Elon Musk's SpaceX–Tesla merger could impact 20,000 bitcoin (BTC) - CoinDesk",
+      "description": "Any deal involving SpaceX and Tesla would quietly consolidate one of the world’s largest corporate bitcoin holdings under a single roof.",
+      "url": "https://www.coindesk.com/markets/2026/01/30/spacex-tesla-merger-talks-puts-nearly-20-000-bitcoin-in-focus",
+      "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/4290d2e5ba7140f5d65f68d3183a9abb87c098a4-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "publishedAt": "2026-01-30T23:34:39Z",
+      "content": "Elon Musks consideration of a potential merger involving SpaceX, Tesla or artificial intelligence firm xAI has put renewed attention on a lesser-discussed piece of his empire: one of the largest corp… [+2677 chars]"
+    },
+    {
+      "source": {
+        "id": "ars-technica",
+        "name": "Ars Technica"
+      },
+      "author": "Benj Edwards",
+      "title": "AI agents now have their own Reddit-style social network, and it’s getting weird fast - Ars Technica",
+      "description": "Moltbook lets 32,000 AI bots trade jokes, tips, and complaints about humans.",
+      "url": "https://arstechnica.com/information-technology/2026/01/ai-agents-now-have-their-own-reddit-style-social-network-and-its-getting-weird-fast/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2026/01/moltbook-blue-v-red-1152x648.jpg",
+      "publishedAt": "2026-01-30T22:12:26Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Greg Ritchie, Carter Johnson, Alice Atkins, Ruth Carson",
+      "title": "Dollar Fears Are Flaring as Trump Rekindles Debasement Trade - Bloomberg.com",
+      "description": "To some in financial markets it’s known as the debasement trade. To others it’s selling, hedging or even “quiet quitting” America.",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-30/dollar-fears-are-flaring-as-trump-rekindles-debasement-trade",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ixrKqkQl3iq8/v1/1200x807.jpg",
+      "publishedAt": "2026-01-30T21:56:13Z",
+      "content": "To some in financial markets its known as the debasement trade. To others its selling, hedging or even quiet quitting America.\r\nWhatever they call it, currency traders from Tokyo to New York started … [+147 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "SpaceNews"
+      },
+      "author": "Jeff Foust",
+      "title": "Blue Origin halts New Shepard flights - SpaceNews",
+      "description": "Blue Origin announced Jan. 30 that it will halt flights of its New Shepard suborbital vehicle for at least two years as it focuses on human lunar exploration.",
+      "url": "http://spacenews.com/blue-origin-halts-new-shepard-flights/",
+      "urlToImage": "https://spacenews.com/wp-content/uploads/2025/10/ns36-liftoff.jpeg",
+      "publishedAt": "2026-01-30T21:54:08Z",
+      "content": "ORLANDO, Fla. Blue Origin announced Jan. 30 that it will halt flights of its New Shepard suborbital vehicle for at least two years as it shifts its focus to human lunar exploration.\r\nIn a statement, … [+4627 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sec.gov"
+      },
+      "author": null,
+      "title": "SEC Appoints New Chairman and Board Members to PCAOB - SEC.gov",
+      "description": null,
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-16-sec-appoints-new-chairman-board-members-pcaob",
+      "urlToImage": null,
+      "publishedAt": "2026-01-30T21:00:50Z",
+      "content": "Washington D.C., Jan. 30, 2026 The Securities and Exchange Commission today announced the appointment of Demetrios (Jim) Logothetis, as Chairman, and Mark Calabria, Kyle Hauptman, and Steven Laughton… [+4879 chars]"
+    }
+  ]
+}
+  }
+
