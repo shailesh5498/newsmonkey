@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-import { Link, NavLink } from 'react-router-dom'
+
 
 export class NavBar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <Link className="navbar-brand" to="/general">
+        <a className="navbar-brand" href="/general">
           NewsMonkey
-        </Link>
+        </a>
 
         <button
           className="navbar-toggler"
@@ -25,51 +25,51 @@ export class NavBar extends Component {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/general">
+              <a className="nav-link" href="/general">
                 Home
-              </NavLink>
+              </a>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/business">
+              <a className="nav-link" href="/business">
                 Business
-              </NavLink>
+              </a>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/entertainment">
+              <a className="nav-link" href="/entertainment">
                 Entertainment
-              </NavLink>
+              </a>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/general">
+              <a className="nav-link" href="/general">
                 General
-              </NavLink>
+              </a>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/health">
+              <a className="nav-link" href="/health">
                 Health
-              </NavLink>
+              </a>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/science">
+              <a className="nav-link" href="/science">
                 Science
-              </NavLink>
+              </a>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/sports">
+              <a className="nav-link" href="/sports">
                 Sports
-              </NavLink>
+              </a>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/technology">
+              <a className="nav-link" href="/technology">
                 Technology
-              </NavLink>
+              </a>
             </li>
 
           </ul>
